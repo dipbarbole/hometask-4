@@ -1,5 +1,3 @@
-export interface Shipper{
-
-    getCost(itemType:any, weight: number):number
- 
- }
+export interface Shipper {
+  getCost(itemType: ItemType, weight: number): number;
+}

@@ -1,5 +1,9 @@
 {
     "compilerOptions": {
+        "target": "ES2015",
+        "allowJs": true,
+        "outDir": "dist",
+        "module": "System"
     },
     "include": ["src"],
     "exclude": ["node_modules"]
